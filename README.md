@@ -1,2 +1,2 @@
 github: https://github.com/BenjaminSepulveda67/card_js
-deploy:
+deploy: https://BenjaminSepulveda67.github.io/card_js/
