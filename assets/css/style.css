@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  overflow: hidden;
+}
+
+.img-producto {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.titulo-producto {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.precio-producto {
+  font-size: 18px;
+  color: #555;
+}
+
+.control-cantidad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.boton-cantidad {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.boton-cantidad:hover {
+  background-color: #0056b3;
+}
+
+#cantidad {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.precio-total {
+  font-size: 18px;
+  color: #333;
+  margin-top: 15px;
+}
